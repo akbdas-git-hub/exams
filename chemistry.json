@@ -1,7 +1,5 @@
 [
-// ─────────────────────────────────────────────────────────────
-  // MCQ: INDUSTRIAL PROCESSES
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:1, type:"mcq", category:"Industrial Processes", difficulty:"hard",
     question:"What are the exact conditions for Haber's Process?",
@@ -26,9 +24,7 @@
     equation:"2SO₂ + O₂ → 2SO₃",
     tip:"V₂O₅ (vanadium pentoxide). 720K is optimum — too hot and equilibrium shifts back."
   },
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: INDUSTRIAL PROCESSES
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:101, type:"blank", category:"Industrial Processes", difficulty:"medium",
     question:"What goes on the LEFT side to produce 2NH₃? (Haber's)",
@@ -70,9 +66,7 @@
     tip:"3 NO₂ → 2 HNO₃ + 1 NO. The NO is recycled. Balance N: 3 = 2 + 1. ✓"
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // MCQ: NITROGEN COMPOUNDS
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:5, type:"mcq", category:"Nitrogen Compounds", difficulty:"easy",
     question:"Lab preparation of dinitrogen — which reagents?",
@@ -122,9 +116,7 @@
     tip:"Fe²⁺ reduces NO₃⁻ to NO. Then NO coordinates to Fe²⁺ forming the brown complex at the interface."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: NITROGEN
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:201, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
     question:"Fill the LEFT side — Cu + dilute HNO₃:",
@@ -196,9 +188,7 @@
     tip:"4 Zn needs 10 HNO₃: 8 for 4 Zn(NO₃)₂ (each needs 2 NO₃⁻) + 2 extra → N₂O + H₂O."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // MCQ: PHOSPHORUS
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:11, type:"mcq", category:"Phosphorus", difficulty:"medium",
     question:"H₃PO₃ heated → disproportionation products?",
@@ -216,9 +206,7 @@
     tip:"White P (NOT red!) + conc NaOH under CO₂ atmosphere. Product NaH₂PO₂ is sodium hypophosphite."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: PHOSPHORUS
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:301, type:"blank", category:"Phosphorus", difficulty:"medium",
     question:"Fill the RIGHT side — preparation of PCl₃:",
@@ -270,9 +258,7 @@
     tip:"P₄ + 3NaOH + 3H₂O. The ratio is 1:3:3. One P becomes PH₃(-3), three P become NaH₂PO₂(+1)."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // MCQ: SULPHUR
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:15, type:"mcq", category:"Sulphur Compounds", difficulty:"medium",
     question:"SO₂ + Cl₂ with charcoal catalyst gives?",
@@ -290,9 +276,7 @@
     tip:"Conc H₂SO₄ is oxidising agent — reduced to SO₂ (not H₂!). Cu oxidised 0→+2."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: SULPHUR
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:401, type:"blank", category:"Sulphur Compounds", difficulty:"easy",
     question:"Fill the RIGHT side — burning sulphur in air:",
@@ -354,9 +338,7 @@
     tip:"S(0) + 2H₂SO₄(S+6) → 3SO₂(S+4) + 2H₂O. S oxidised from 0 to +4; H₂SO₄ reduced +6→+4."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // MCQ: HALOGENS
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:19, type:"mcq", category:"Halogens", difficulty:"easy",
     question:"Cl₂ + cold dilute NaOH → products?",
@@ -382,9 +364,7 @@
     tip:"MnO₂ oxidises HCl. Mn: +4→+2. Cl: -1→0 (Cl₂). Need 4 HCl: 2 form MnCl₂, 2 oxidised to Cl₂."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: HALOGENS
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:501, type:"blank", category:"Halogens", difficulty:"medium",
     question:"Fill the LEFT side — lab prep of Cl₂:",
@@ -446,9 +426,7 @@
     tip:"At 420K (moderate temp): NaCl + H₂SO₄ → NaHSO₄ + HCl. At 823K: NaHSO₄ + NaCl → Na₂SO₄ + HCl."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // MCQ: NOBLE GASES
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:24, type:"mcq", category:"Noble Gases", difficulty:"medium",
     question:"What conditions produce XeF₄?",
@@ -466,9 +444,7 @@
     tip:"Disproportionation: 6 Xe(+4) → 4 Xe(0) + 2 Xe(+6 as XeO₃). 24 F → 24 HF. O₂ from water."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: NOBLE GASES
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:601, type:"blank", category:"Noble Gases", difficulty:"medium",
     question:"Fill the RIGHT side — preparation of XeF₂:",
@@ -520,9 +496,7 @@
     tip:"Xe + 3F₂ at 573K and very high pressure 60-70 bar gives XeF₆. Distorted octahedral shape."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: BORON
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:701, type:"blank", category:"Boron Family", difficulty:"medium",
     question:"Fill the RIGHT side — preparation of diborane (LiAlH₄ method):",
@@ -564,9 +538,7 @@
     tip:"B accepts OH⁻ from water to fill its empty orbital → [B(OH)₄]⁻. This releases H₃O⁺ → acidic solution."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // BLANK: CARBON
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:801, type:"blank", category:"Carbon Family", difficulty:"easy",
     question:"Fill the RIGHT side — water gas production:",
@@ -618,9 +590,7 @@
     tip:"SiO₂ reacted by HF (unlike most acids). 4HF replace 2O with 4F → SiF₄ gas + 2H₂O."
   },
 
-  // ─────────────────────────────────────────────────────────────
-  // EXTRA MCQ
-  // ─────────────────────────────────────────────────────────────
+
   {
     id:28, type:"mcq", category:"Boron Family", difficulty:"easy",
     question:"Why is boric acid a Lewis acid (not Brønsted)?",
@@ -654,11 +624,7 @@
     tip:"Water → H₂O → CO + H₂ (water gas). Air → N₂+O₂ → CO + N₂ (producer gas). Steam vs air!"
   },
 
-  // ═════════════════════════════════════════════════════════════
-  // NEW FILL-THE-BLANK QUESTIONS  (ids 900–999)
-  // ═════════════════════════════════════════════════════════════
 
-  // ── INDUSTRIAL PROCESSES (extra) ────────────────────────────
   {
     id:900, type:"blank", category:"Industrial Processes", difficulty:"medium",
     question:"Fill the LEFT side — Ostwald Step 2 (NO oxidation):",
@@ -690,7 +656,7 @@
     tip:"Oleum (H₂S₂O₇) is carefully diluted with water → 2 H₂SO₄. Never add SO₃ directly to water!"
   },
 
-  // ── NITROGEN COMPOUNDS (extra) ───────────────────────────────
+
   {
     id:903, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
     question:"Fill the RIGHT side — thermal decomposition of Ba(N₃)₂:",
@@ -752,7 +718,7 @@
     tip:"I₂(0) → HIO₃(+5): each I needs 5 HNO₃ to oxidise it. 2I × 5 = 10 HNO₃ → 10 NO₂."
   },
 
-  // ── PHOSPHORUS (extra) ───────────────────────────────────────
+
   {
     id:909, type:"blank", category:"Phosphorus", difficulty:"medium",
     question:"Fill the RIGHT side — hydrolysis of PCl₅:",
@@ -794,7 +760,7 @@
     tip:"P₄ + 5 O₂ → P₄O₁₀ (also written P₂O₅). 4 P atoms × 2.5 O each = 10 O atoms = 5 O₂."
   },
 
-  // ── SULPHUR COMPOUNDS (extra) ────────────────────────────────
+
   {
     id:913, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
     question:"Fill the RIGHT side — SO₂ dissolved in water:",
@@ -846,7 +812,7 @@
     tip:"At 420K: NaCl + H₂SO₄ → NaHSO₄ + HCl. At 823K: NaHSO₄ + NaCl → Na₂SO₄ + HCl."
   },
 
-  // ── HALOGENS (extra) ─────────────────────────────────────────
+ 
   {
     id:918, type:"blank", category:"Halogens", difficulty:"medium",
     question:"Fill the RIGHT side — F₂ displaces Cl⁻ from solution:",
@@ -908,7 +874,7 @@
     tip:"I₂ + 5 F₂ → 2 IF₅ (iodine pentafluoride, square pyramidal). I₂ + 7F₂ → 2IF₇ (pentagonal bipyramidal)."
   },
 
-  // ── NOBLE GASES (extra) ──────────────────────────────────────
+
   {
     id:924, type:"blank", category:"Noble Gases", difficulty:"hard",
     question:"Fill the RIGHT side — XeF₂ hydrolysis:",
@@ -940,7 +906,7 @@
     tip:"2 H₂O with XeF₆: 2O enter, 4F leave as HF → XeO₂F₂. Pattern: each H₂O adds 1O, removes 2F."
   },
 
-  // ── BORON FAMILY (extra) ─────────────────────────────────────
+
   {
     id:927, type:"blank", category:"Boron Family", difficulty:"medium",
     question:"Fill the RIGHT side — preparation of diborane (alternative route via NaBH₄):",
@@ -982,7 +948,7 @@
     tip:"Al is amphoteric — reacts with both acid and base. With NaOH: forms tetrahydroxoaluminate Na[Al(OH)₄] + H₂."
   },
 
-  // ── CARBON FAMILY (extra) ────────────────────────────────────
+
   {
     id:931, type:"blank", category:"Carbon Family", difficulty:"medium",
     question:"Fill the RIGHT side — producer gas (air + coke):",
@@ -1064,7 +1030,7 @@
     tip:"Limited NaOH (1 mole): CO₂ + NaOH → NaHCO₃. Excess NaOH (2 moles): CO₂ + 2NaOH → Na₂CO₃."
   },
 
-  // ── CROSS-CATEGORY: KEY REACTIONS ────────────────────────────
+
   {
     id:939, type:"blank", category:"Nitrogen Compounds", difficulty:"easy",
     question:"Fill the RIGHT side — NH₃ reacts with excess Cl₂:",
