@@ -1,0 +1,1108 @@
+[
+// ─────────────────────────────────────────────────────────────
+  // MCQ: INDUSTRIAL PROCESSES
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:1, type:"mcq", category:"Industrial Processes", difficulty:"hard",
+    question:"What are the exact conditions for Haber's Process?",
+    correct:"200 atm, 700K, Fe₂O₃ catalyst",
+    options:["100 atm, 500K, Pt catalyst","200 atm, 700K, Fe₂O₃ catalyst","300 atm, 800K, V₂O₅ catalyst","150 atm, 600K, MnO₂ catalyst"],
+    equation:"N₂ + 3H₂ ⇌ 2NH₃",
+    tip:"Fe₂O₃ is catalyst. 200 atm high pressure favours forward reaction (fewer moles of gas on right)."
+  },
+  {
+    id:2, type:"mcq", category:"Industrial Processes", difficulty:"medium",
+    question:"Ostwald's Process Step 1 — which catalyst is used?",
+    correct:"Pt/Rh gauge at 500K, 9 bar",
+    options:["V₂O₅ at 720K","Pt/Rh gauge at 500K, 9 bar","Fe₂O₃ at 700K","MnO₂ at 600K"],
+    equation:"4NH₃ + 5O₂ → 4NO + 6H₂O",
+    tip:"Pt/Rh gauge catalyst at 500K, 9 bar. NH₃ is catalytically oxidised to NO in Step 1."
+  },
+  {
+    id:3, type:"mcq", category:"Industrial Processes", difficulty:"medium",
+    question:"Contact Process Step 2 — catalyst and conditions?",
+    correct:"V₂O₅ at 720K, 2 bar",
+    options:["Fe₂O₃ at 700K, 1 bar","Pt at 500K, 10 bar","V₂O₅ at 720K, 2 bar","MnO₂ at 600K, 5 bar"],
+    equation:"2SO₂ + O₂ → 2SO₃",
+    tip:"V₂O₅ (vanadium pentoxide). 720K is optimum — too hot and equilibrium shifts back."
+  },
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: INDUSTRIAL PROCESSES
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:101, type:"blank", category:"Industrial Processes", difficulty:"medium",
+    question:"What goes on the LEFT side to produce 2NH₃? (Haber's)",
+    blankSide:"left",
+    equationWithBlank:"[___?___] ⇌ 2NH₃",
+    fullEquation:"N₂ + 3H₂ ⇌ 2NH₃",
+    correct:"N₂ + 3H₂",
+    options:["N₂ + H₂","N₂ + 3H₂","2N + 3H₂","N₂ + 2H₂"],
+    tip:"Nitrogen + Hydrogen in 1:3 ratio. 1 N₂ gives 2 NH₃. Count: 2N and 6H on both sides. ✓"
+  },
+  {
+    id:102, type:"blank", category:"Industrial Processes", difficulty:"hard",
+    question:"Fill the RIGHT side — Ostwald Step 1:",
+    blankSide:"right",
+    equationWithBlank:"4NH₃ + 5O₂ → [___?___]",
+    fullEquation:"4NH₃ + 5O₂ → 4NO + 6H₂O",
+    correct:"4NO + 6H₂O",
+    options:["2NO + 3H₂O","4NO₂ + 6H₂O","4NO + 6H₂O","4NO + 4H₂O"],
+    tip:"N: 4NH₃ → 4NO. H: 12H in 4NH₃ → 6H₂O. O: 5O₂(10) = 4NO(4) + 6H₂O(6). ✓"
+  },
+  {
+    id:103, type:"blank", category:"Industrial Processes", difficulty:"medium",
+    question:"Fill the LEFT side to form Oleum (H₂S₂O₇):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → H₂S₂O₇",
+    fullEquation:"SO₃ + H₂SO₄ → H₂S₂O₇",
+    correct:"SO₃ + H₂SO₄",
+    options:["SO₃ + H₂O","SO₂ + H₂SO₄","SO₃ + H₂SO₄","2SO₃ + H₂O"],
+    tip:"SO₃ dissolves in conc. H₂SO₄ (NOT water!) to form Oleum. Direct water absorption causes acid mist."
+  },
+  {
+    id:104, type:"blank", category:"Industrial Processes", difficulty:"easy",
+    question:"Fill the RIGHT side — Ostwald Step 3 (NO₂ + water):",
+    blankSide:"right",
+    equationWithBlank:"3NO₂ + H₂O → [___?___]",
+    fullEquation:"3NO₂ + H₂O → 2HNO₃ + NO",
+    correct:"2HNO₃ + NO",
+    options:["HNO₃ + NO₂","2HNO₃ + NO","3HNO₃","2HNO₃ + N₂"],
+    tip:"3 NO₂ → 2 HNO₃ + 1 NO. The NO is recycled. Balance N: 3 = 2 + 1. ✓"
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // MCQ: NITROGEN COMPOUNDS
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:5, type:"mcq", category:"Nitrogen Compounds", difficulty:"easy",
+    question:"Lab preparation of dinitrogen — which reagents?",
+    correct:"NH₄Cl + NaNO₂ (heated in aqueous solution)",
+    options:["N₂O + H₂ → N₂ + H₂O","NH₄Cl + NaNO₂ (heated in aqueous solution)","2NH₃ → N₂ + 3H₂","NaNO₃ + C"],
+    equation:"NH₄Cl(aq) + NaNO₂(aq) → N₂↑ + 2H₂O + NaCl",
+    tip:"Ammonium chloride + Sodium nitrite. Both N atoms (from NH₄⁺ and NO₂⁻) combine to form N₂."
+  },
+  {
+    id:6, type:"mcq", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Disproportionation of HNO₂ in acid solution gives?",
+    correct:"3HNO₂ → HNO₃ + H₂O + 2NO",
+    options:["2HNO₂ → N₂O₃ + H₂O","3HNO₂ → HNO₃ + H₂O + 2NO","HNO₂ → NO + OH⁻","4HNO₂ → 2HNO₃ + N₂ + 2H₂O"],
+    equation:"3HNO₂ → HNO₃ + H₂O + 2NO",
+    tip:"N(+3) splits to N(+5) in HNO₃ and N(+2) in NO. Check: 3N, 6O, 3H on each side. ✓"
+  },
+  {
+    id:7, type:"mcq", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Cu + dilute HNO₃ → which gas?",
+    correct:"NO (colourless, Nitric Oxide)",
+    options:["NO₂ (brown gas)","NO (colourless, Nitric Oxide)","N₂O (laughing gas)","N₂ (dinitrogen)"],
+    equation:"3Cu + 8HNO₃(dil) → 3Cu(NO₃)₂ + 2NO↑ + 4H₂O",
+    tip:"Dilute → lower oxide (NO, colourless). Concentrated → NO₂ (brown). Dilute = lower oxidation state."
+  },
+  {
+    id:8, type:"mcq", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Cu + concentrated HNO₃ → which gas?",
+    correct:"NO₂ (brown fumes)",
+    options:["NO (colourless)","NO₂ (brown fumes)","N₂O (sweet smell)","NH₃ (pungent)"],
+    equation:"Cu + 4HNO₃(conc) → Cu(NO₃)₂ + 2NO₂↑ + 2H₂O",
+    tip:"Concentrated → NO₂ (brown). Trick: Concentrated = Coloured (brown) fumes!"
+  },
+  {
+    id:9, type:"mcq", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Zn + dilute HNO₃ → which gas?",
+    correct:"N₂O (laughing gas)",
+    options:["NO₂","NO","N₂O (laughing gas)","NH₃"],
+    equation:"4Zn + 10HNO₃(dil) → 4Zn(NO₃)₂ + 5H₂O + N₂O↑",
+    tip:"Zn with dilute HNO₃ → N₂O. Very dilute → NH₄⁺ can form. Metal activity matters!"
+  },
+  {
+    id:10, type:"mcq", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Brown Ring Test — what is the brown coloured complex?",
+    correct:"[Fe(H₂O)₅(NO)]²⁺",
+    options:["[Fe(CN)₆]³⁻","[Fe(H₂O)₅(NO)]²⁺","Fe(NO₃)₂","FeSO₄·NO"],
+    equation:"[Fe(H₂O)₆]²⁺ + NO → [Fe(H₂O)₅(NO)]²⁺ + H₂O",
+    tip:"Fe²⁺ reduces NO₃⁻ to NO. Then NO coordinates to Fe²⁺ forming the brown complex at the interface."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: NITROGEN
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:201, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the LEFT side — Cu + dilute HNO₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 3Cu(NO₃)₂ + 2NO↑ + 4H₂O",
+    fullEquation:"3Cu + 8HNO₃(dil) → 3Cu(NO₃)₂ + 2NO↑ + 4H₂O",
+    correct:"3Cu + 8HNO₃(dil)",
+    options:["Cu + 4HNO₃(dil)","3Cu + 8HNO₃(dil)","3Cu + 6HNO₃(dil)","2Cu + 8HNO₃(dil)"],
+    tip:"3 Cu needs 8 HNO₃: 6 for making 3 Cu(NO₃)₂ (each needs 2 NO₃⁻) + 2 extra → 2 NO."
+  },
+  {
+    id:202, type:"blank", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Fill the RIGHT side — Cu + conc. HNO₃:",
+    blankSide:"right",
+    equationWithBlank:"Cu + 4HNO₃(conc) → [___?___]",
+    fullEquation:"Cu + 4HNO₃(conc) → Cu(NO₃)₂ + 2NO₂↑ + 2H₂O",
+    correct:"Cu(NO₃)₂ + 2NO₂↑ + 2H₂O",
+    options:["CuO + 2NO₂ + H₂O","Cu(NO₃)₂ + 2NO₂↑ + 2H₂O","Cu(NO₃)₂ + NO + 2H₂O","CuNO₃ + 2NO₂ + H₂O"],
+    tip:"1 Cu(NO₃)₂ uses 2 HNO₃. Remaining 2 HNO₃ → 2NO₂ + H₂O. Total 4 HNO₃. ✓"
+  },
+  {
+    id:203, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the LEFT side — lab prep of dinitrogen:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → N₂↑ + 2H₂O + NaCl",
+    fullEquation:"NH₄Cl + NaNO₂ → N₂↑ + 2H₂O + NaCl",
+    correct:"NH₄Cl + NaNO₂",
+    options:["NH₃ + NaNO₃","NH₄Cl + NaNO₂","N₂H₄ + NaCl","(NH₄)₂SO₄ + NaNO₂"],
+    tip:"NH₄Cl (ammonium chloride) + NaNO₂ (sodium nitrite). One N from each combines → N₂."
+  },
+  {
+    id:204, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — disproportionation of HNO₂:",
+    blankSide:"right",
+    equationWithBlank:"3HNO₂ → [___?___]",
+    fullEquation:"3HNO₂ → HNO₃ + H₂O + 2NO",
+    correct:"HNO₃ + H₂O + 2NO",
+    options:["HNO₃ + 2NO","HNO₃ + H₂O + 2NO","HNO₃ + 2NO + 2H₂O","2HNO₃ + NO"],
+    tip:"3N(+3) → 1N(+5) in HNO₃ + 2N(+2) in NO + H₂O. Check O: 6 = 3 + 1 + 2. ✓"
+  },
+  {
+    id:205, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the LEFT side — small scale lab prep of NH₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2NH₃ + 2H₂O + CaCl₂",
+    fullEquation:"2NH₄Cl + Ca(OH)₂ → 2NH₃ + 2H₂O + CaCl₂",
+    correct:"2NH₄Cl + Ca(OH)₂",
+    options:["NH₄Cl + NaOH","2NH₄Cl + Ca(OH)₂","(NH₄)₂SO₄ + Ca(OH)₂","2NH₄Cl + CaO"],
+    tip:"2 moles NH₄Cl + 1 mole Ca(OH)₂ (slaked lime). 2 NH₄⁺ + 2 OH⁻ → 2 NH₃ + 2 H₂O. ✓"
+  },
+  {
+    id:206, type:"blank", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Fill the RIGHT side — thermal decomp. of ammonium dichromate:",
+    blankSide:"right",
+    equationWithBlank:"(NH₄)₂Cr₂O₇ → [___?___]",
+    fullEquation:"(NH₄)₂Cr₂O₇ → N₂ + 4H₂O + Cr₂O₃",
+    correct:"N₂ + 4H₂O + Cr₂O₃",
+    options:["N₂ + H₂O + CrO₃","N₂ + 4H₂O + Cr₂O₃","NH₃ + Cr₂O₃ + H₂O","2NO + 4H₂O + Cr₂O₃"],
+    tip:"Classic volcano demo! 2N from 2 NH₄⁺ → N₂. 8H → 4H₂O. Cr in +6 → +3 as green Cr₂O₃."
+  },
+  {
+    id:207, type:"blank", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — Zn + dilute HNO₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 4Zn(NO₃)₂ + 5H₂O + N₂O↑",
+    fullEquation:"4Zn + 10HNO₃(dil) → 4Zn(NO₃)₂ + 5H₂O + N₂O↑",
+    correct:"4Zn + 10HNO₃(dil)",
+    options:["2Zn + 5HNO₃(dil)","4Zn + 10HNO₃(dil)","4Zn + 8HNO₃(dil)","Zn + 4HNO₃(dil)"],
+    tip:"4 Zn needs 10 HNO₃: 8 for 4 Zn(NO₃)₂ (each needs 2 NO₃⁻) + 2 extra → N₂O + H₂O."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // MCQ: PHOSPHORUS
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:11, type:"mcq", category:"Phosphorus", difficulty:"medium",
+    question:"H₃PO₃ heated → disproportionation products?",
+    correct:"4H₃PO₃ → 3H₃PO₄ + PH₃",
+    options:["2H₃PO₃ → H₃PO₄ + H₃PO₂","4H₃PO₃ → 3H₃PO₄ + PH₃","H₃PO₃ → HPO₂ + H₂O","3H₃PO₃ → 2H₃PO₄ + PH₃"],
+    equation:"4H₃PO₃ → 3H₃PO₄ + PH₃↑",
+    tip:"H₃PO₃(+3) splits → H₃PO₄(+5) and PH₃(-3). 4P(+3) → 3P(+5) + 1P(-3). Check balance: 4=3+1 ✓"
+  },
+  {
+    id:12, type:"mcq", category:"Phosphorus", difficulty:"easy",
+    question:"Lab preparation of PH₃ (phosphine) — reagents?",
+    correct:"White P₄ + conc. NaOH + H₂O (inert atm)",
+    options:["Red P + H₂SO₄","White P₄ + conc. NaOH + H₂O (inert atm)","Ca₃P₂ + H₂SO₄","P₄ + 6HCl"],
+    equation:"P₄ + 3NaOH + 3H₂O → PH₃ + 3NaH₂PO₂",
+    tip:"White P (NOT red!) + conc NaOH under CO₂ atmosphere. Product NaH₂PO₂ is sodium hypophosphite."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: PHOSPHORUS
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:301, type:"blank", category:"Phosphorus", difficulty:"medium",
+    question:"Fill the RIGHT side — preparation of PCl₃:",
+    blankSide:"right",
+    equationWithBlank:"P₄ + 6Cl₂ → [___?___]",
+    fullEquation:"P₄ + 6Cl₂ → 4PCl₃",
+    correct:"4PCl₃",
+    options:["2PCl₃","4PCl₃","PCl₅","2P₂Cl₆"],
+    tip:"1 P₄ + 6 Cl₂ → 4 PCl₃. Each P bonds 3 Cl. 4×3 = 12 Cl atoms = 6 Cl₂. ✓"
+  },
+  {
+    id:302, type:"blank", category:"Phosphorus", difficulty:"hard",
+    question:"Fill the RIGHT side — preparation of PCl₅:",
+    blankSide:"right",
+    equationWithBlank:"P₄ + 10Cl₂ → [___?___]",
+    fullEquation:"P₄ + 10Cl₂ → 4PCl₅",
+    correct:"4PCl₅",
+    options:["2PCl₅","4PCl₅","P₄Cl₂₀","PCl₅ + PCl₃"],
+    tip:"1 P₄ + 10 Cl₂ → 4 PCl₅. Each P needs 5 Cl. 4×5 = 20 Cl atoms = 10 Cl₂. ✓"
+  },
+  {
+    id:303, type:"blank", category:"Phosphorus", difficulty:"medium",
+    question:"Fill the LEFT side — hydrolysis of PCl₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → H₃PO₃ + 3HCl",
+    fullEquation:"PCl₃ + 3H₂O → H₃PO₃ + 3HCl",
+    correct:"PCl₃ + 3H₂O",
+    options:["PCl₅ + 3H₂O","PCl₃ + 3H₂O","PCl₃ + H₂O","P + 3HCl"],
+    tip:"PCl₃ + 3H₂O → H₃PO₃ (phosphorous acid) + 3HCl. Each Cl is replaced by OH from water."
+  },
+  {
+    id:304, type:"blank", category:"Phosphorus", difficulty:"hard",
+    question:"Fill the RIGHT side — disproportionation of H₃PO₃ on heating:",
+    blankSide:"right",
+    equationWithBlank:"4H₃PO₃ → [___?___]",
+    fullEquation:"4H₃PO₃ → 3H₃PO₄ + PH₃↑",
+    correct:"3H₃PO₄ + PH₃↑",
+    options:["H₃PO₄ + PH₃","3H₃PO₄ + PH₃↑","4H₃PO₄","2H₃PO₄ + 2PH₃"],
+    tip:"4 moles H₃PO₃(+3) → 3 moles H₃PO₄(+5) + 1 mole PH₃(-3). Check P: 4=3+1. ✓"
+  },
+  {
+    id:305, type:"blank", category:"Phosphorus", difficulty:"medium",
+    question:"Fill the LEFT side — lab preparation of PH₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → PH₃ + 3NaH₂PO₂",
+    fullEquation:"P₄ + 3NaOH + 3H₂O → PH₃ + 3NaH₂PO₂",
+    correct:"P₄ + 3NaOH + 3H₂O",
+    options:["P₄ + NaOH + H₂O","P₄ + 3NaOH + 3H₂O","P₄ + 4NaOH + 2H₂O","P + NaOH + H₂O"],
+    tip:"P₄ + 3NaOH + 3H₂O. The ratio is 1:3:3. One P becomes PH₃(-3), three P become NaH₂PO₂(+1)."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // MCQ: SULPHUR
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:15, type:"mcq", category:"Sulphur Compounds", difficulty:"medium",
+    question:"SO₂ + Cl₂ with charcoal catalyst gives?",
+    correct:"SO₂Cl₂ (sulphuryl chloride)",
+    options:["SOCl₂","SO₂Cl₂ (sulphuryl chloride)","S₂Cl₂","SCl₄"],
+    equation:"SO₂(g) + Cl₂(g) → SO₂Cl₂(l)",
+    tip:"Charcoal is the catalyst. Sulphuryl chloride SO₂Cl₂. S is in +6 oxidation state here."
+  },
+  {
+    id:17, type:"mcq", category:"Sulphur Compounds", difficulty:"hard",
+    question:"Conc. H₂SO₄ acts on copper — products?",
+    correct:"CuSO₄ + SO₂↑ + H₂O",
+    options:["CuSO₄ + H₂↑ + H₂O","CuSO₄ + SO₂↑ + H₂O","Cu₂SO₄ + H₂O","CuO + SO₃ + H₂O"],
+    equation:"Cu + 2H₂SO₄(conc) → CuSO₄ + SO₂↑ + 2H₂O",
+    tip:"Conc H₂SO₄ is oxidising agent — reduced to SO₂ (not H₂!). Cu oxidised 0→+2."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: SULPHUR
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:401, type:"blank", category:"Sulphur Compounds", difficulty:"easy",
+    question:"Fill the RIGHT side — burning sulphur in air:",
+    blankSide:"right",
+    equationWithBlank:"S + O₂ → [___?___]",
+    fullEquation:"S + O₂ → SO₂",
+    correct:"SO₂",
+    options:["SO₃","SO₂","S₂O₃","H₂SO₄"],
+    tip:"Direct combustion of S in O₂ gives SO₂ (not SO₃). SO₃ needs catalyst."
+  },
+  {
+    id:402, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — conc. H₂SO₄ oxidises carbon:",
+    blankSide:"right",
+    equationWithBlank:"C + 2H₂SO₄(conc) → [___?___]",
+    fullEquation:"C + 2H₂SO₄(conc) → CO₂ + 2SO₂ + 2H₂O",
+    correct:"CO₂ + 2SO₂ + 2H₂O",
+    options:["CO₂ + SO₃ + H₂O","CO₂ + 2SO₂ + 2H₂O","CO + SO₂ + H₂O","CO₂ + H₂SO₃"],
+    tip:"C→CO₂(+4). Each H₂SO₄→SO₂(+4)+H₂O. 2 H₂SO₄ gives 2 SO₂ + 2 H₂O. ✓"
+  },
+  {
+    id:403, type:"blank", category:"Sulphur Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — SO₂ from iron pyrite roasting:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2Fe₂O₃ + 8SO₂",
+    fullEquation:"4FeS₂ + 11O₂ → 2Fe₂O₃ + 8SO₂",
+    correct:"4FeS₂ + 11O₂",
+    options:["2FeS₂ + 5O₂","4FeS₂ + 11O₂","4FeS + 7O₂","4FeS₂ + 8O₂"],
+    tip:"4 FeS₂ → 2 Fe₂O₃ (needs 6O) + 8 SO₂ (needs 16O). Total 22O = 11O₂. ✓"
+  },
+  {
+    id:404, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — excess SO₂ with Na₂SO₃:",
+    blankSide:"right",
+    equationWithBlank:"Na₂SO₃ + H₂O + SO₂ → [___?___]",
+    fullEquation:"Na₂SO₃ + H₂O + SO₂ → 2NaHSO₃",
+    correct:"2NaHSO₃",
+    options:["Na₂SO₄ + H₂S","2NaHSO₃","NaHSO₄ + NaOH","Na₂S₂O₅ + H₂O"],
+    tip:"Excess SO₂ with Na₂SO₃ and H₂O → sodium bisulphite NaHSO₃. 2 moles formed."
+  },
+  {
+    id:405, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
+    question:"Fill the LEFT side — Cu + conc. H₂SO₄:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → CuSO₄ + SO₂↑ + 2H₂O",
+    fullEquation:"Cu + 2H₂SO₄(conc) → CuSO₄ + SO₂↑ + 2H₂O",
+    correct:"Cu + 2H₂SO₄(conc)",
+    options:["Cu + H₂SO₄(conc)","CuO + H₂SO₄","Cu + 2H₂SO₄(conc)","2Cu + H₂SO₄(conc)"],
+    tip:"2 moles H₂SO₄: 1 forms CuSO₄, the other is reduced to SO₂ + H₂O."
+  },
+  {
+    id:406, type:"blank", category:"Sulphur Compounds", difficulty:"hard",
+    question:"Fill the RIGHT side — conc. H₂SO₄ + sulphur:",
+    blankSide:"right",
+    equationWithBlank:"S + 2H₂SO₄(conc) → [___?___]",
+    fullEquation:"S + 2H₂SO₄(conc) → 3SO₂ + 2H₂O",
+    correct:"3SO₂ + 2H₂O",
+    options:["SO₃ + H₂O","2SO₂ + H₂O","3SO₂ + 2H₂O","SO₂ + H₂SO₃"],
+    tip:"S(0) + 2H₂SO₄(S+6) → 3SO₂(S+4) + 2H₂O. S oxidised from 0 to +4; H₂SO₄ reduced +6→+4."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // MCQ: HALOGENS
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:19, type:"mcq", category:"Halogens", difficulty:"easy",
+    question:"Cl₂ + cold dilute NaOH → products?",
+    correct:"NaCl + NaOCl + H₂O",
+    options:["NaCl + NaClO₃ + H₂O","NaCl + NaOCl + H₂O","NaClO₄ + HCl","NaClO₂ + NaCl"],
+    equation:"2NaOH + Cl₂(cold/dil) → NaCl + NaOCl + H₂O",
+    tip:"Cold → hypochlorite NaOCl (Cl in +1 state). Hot → chlorate NaClO₃ (Cl in +5). Temperature matters!"
+  },
+  {
+    id:20, type:"mcq", category:"Halogens", difficulty:"medium",
+    question:"Cl₂ + hot concentrated NaOH → products?",
+    correct:"5NaCl + NaClO₃ + 3H₂O",
+    options:["NaCl + NaOCl + H₂O","5NaCl + NaClO₃ + 3H₂O","NaClO₄ + HCl","Na₂O + NaCl + HCl"],
+    equation:"6NaOH + 3Cl₂(hot/conc) → 5NaCl + NaClO₃ + 3H₂O",
+    tip:"HOT → chlorate (Cl in +5). 6 NaOH + 3 Cl₂. 5 Cl go to NaCl(-1), 1 Cl goes to NaClO₃(+5)."
+  },
+  {
+    id:22, type:"mcq", category:"Halogens", difficulty:"medium",
+    question:"Lab prep of Cl₂ — which reactants?",
+    correct:"MnO₂ + 4HCl (heated)",
+    options:["KMnO₄ + H₂SO₄","MnO₂ + 4HCl (heated)","NaCl + H₂SO₄","CaF₂ + H₂SO₄"],
+    equation:"MnO₂ + 4HCl → MnCl₂ + Cl₂↑ + 2H₂O",
+    tip:"MnO₂ oxidises HCl. Mn: +4→+2. Cl: -1→0 (Cl₂). Need 4 HCl: 2 form MnCl₂, 2 oxidised to Cl₂."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: HALOGENS
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:501, type:"blank", category:"Halogens", difficulty:"medium",
+    question:"Fill the LEFT side — lab prep of Cl₂:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → MnCl₂ + Cl₂↑ + 2H₂O",
+    fullEquation:"MnO₂ + 4HCl → MnCl₂ + Cl₂↑ + 2H₂O",
+    correct:"MnO₂ + 4HCl",
+    options:["MnO₂ + 2HCl","MnO₂ + 4HCl","MnO + 4HCl","Mn + 4HCl"],
+    tip:"4 HCl: 2 go to form MnCl₂, 2 are oxidised to Cl₂ (losing 2e⁻ total). MnO₂ is the oxidant."
+  },
+  {
+    id:502, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the RIGHT side — Cl₂ + cold dilute NaOH:",
+    blankSide:"right",
+    equationWithBlank:"2NaOH + Cl₂(cold) → [___?___]",
+    fullEquation:"2NaOH + Cl₂(cold) → NaCl + NaOCl + H₂O",
+    correct:"NaCl + NaOCl + H₂O",
+    options:["2NaCl + H₂O","NaCl + NaOCl + H₂O","NaClO₃ + NaCl","NaCl + NaClO₄ + H₂O"],
+    tip:"Cl(0) disproportionates: Cl(-1) in NaCl + Cl(+1) in NaOCl. Cold → hypochlorite."
+  },
+  {
+    id:503, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the RIGHT side — Cl₂ + hot conc. NaOH:",
+    blankSide:"right",
+    equationWithBlank:"6NaOH + 3Cl₂(hot) → [___?___]",
+    fullEquation:"6NaOH + 3Cl₂(hot) → 5NaCl + NaClO₃ + 3H₂O",
+    correct:"5NaCl + NaClO₃ + 3H₂O",
+    options:["6NaCl + 3H₂O","5NaCl + NaClO₃ + 3H₂O","3NaCl + 3NaOCl + 3H₂O","4NaCl + NaClO₃ + H₂O"],
+    tip:"6Na, 6Cl, 6O, 6H on left. Right: 5NaCl + NaClO₃ + 3H₂O = 6Na, 6Cl, 6O, 6H. ✓"
+  },
+  {
+    id:504, type:"blank", category:"Halogens", difficulty:"medium",
+    question:"Fill the LEFT side — KMnO₄ method for Cl₂:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2KCl + 2MnCl₂ + 8H₂O + 5Cl₂",
+    fullEquation:"2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 8H₂O + 5Cl₂",
+    correct:"2KMnO₄ + 16HCl",
+    options:["KMnO₄ + 8HCl","2KMnO₄ + 16HCl","2KMnO₄ + 10HCl","KMnO₄ + 16HCl"],
+    tip:"2KMnO₄+16HCl: 10 HCl oxidised to 5 Cl₂, 6 HCl form salts (2KCl+2MnCl₂). Mn: +7→+2."
+  },
+  {
+    id:505, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the LEFT side — preparation of bleaching powder:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → Ca(OCl)₂ + CaCl₂ + 2H₂O",
+    fullEquation:"2Ca(OH)₂ + 2Cl₂ → Ca(OCl)₂ + CaCl₂ + 2H₂O",
+    correct:"2Ca(OH)₂ + 2Cl₂",
+    options:["Ca(OH)₂ + Cl₂","2Ca(OH)₂ + 2Cl₂","CaO + 2Cl₂ + H₂O","Ca(OH)₂ + 2Cl₂"],
+    tip:"Dry slaked lime reacts with Cl₂ gas. 2 Ca(OH)₂ + 2 Cl₂. Check Ca: 2 on each side. ✓"
+  },
+  {
+    id:506, type:"blank", category:"Halogens", difficulty:"medium",
+    question:"Fill the RIGHT side — HCl lab preparation (step 1):",
+    blankSide:"right",
+    equationWithBlank:"NaCl + H₂SO₄ (420K) → [___?___]",
+    fullEquation:"NaCl + H₂SO₄ → NaHSO₄ + HCl↑",
+    correct:"NaHSO₄ + HCl↑",
+    options:["Na₂SO₄ + 2HCl","NaHSO₄ + HCl↑","Na₂SO₄ + HCl","NaCl + H₂SO₄"],
+    tip:"At 420K (moderate temp): NaCl + H₂SO₄ → NaHSO₄ + HCl. At 823K: NaHSO₄ + NaCl → Na₂SO₄ + HCl."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // MCQ: NOBLE GASES
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:24, type:"mcq", category:"Noble Gases", difficulty:"medium",
+    question:"What conditions produce XeF₄?",
+    correct:"Xe + 2F₂ at 873K, 7 bar (1:5 ratio)",
+    options:["Xe + F₂ at 673K (Xe excess)","Xe + 2F₂ at 873K, 7 bar (1:5 ratio)","Xe + 3F₂ at 573K, 60 bar","Xe + F₂ at 800K, 3 bar"],
+    equation:"Xe + 2F₂ → XeF₄ (873K, 7 bar)",
+    tip:"XeF₂=673K, XeF₄=873K, XeF₆=573K(high P). Memory: temps 673→873→573 for F₂, 2F₂, 3F₂."
+  },
+  {
+    id:25, type:"mcq", category:"Noble Gases", difficulty:"hard",
+    question:"Complete hydrolysis of 6 moles XeF₄ gives?",
+    correct:"4Xe + 2XeO₃ + 24HF + 3O₂",
+    options:["6XeO₃ + 24HF","4Xe + 2XeO₃ + 24HF + 3O₂","XeOF₄ + HF","Xe + XeO₃ + 6HF"],
+    equation:"6XeF₄ + 12H₂O → 4Xe + 2XeO₃ + 24HF + 3O₂",
+    tip:"Disproportionation: 6 Xe(+4) → 4 Xe(0) + 2 Xe(+6 as XeO₃). 24 F → 24 HF. O₂ from water."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: NOBLE GASES
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:601, type:"blank", category:"Noble Gases", difficulty:"medium",
+    question:"Fill the RIGHT side — preparation of XeF₂:",
+    blankSide:"right",
+    equationWithBlank:"Xe + F₂ (673K, Xe excess, 1 bar) → [___?___]",
+    fullEquation:"Xe + F₂ → XeF₂",
+    correct:"XeF₂",
+    options:["XeF₄","XeF₂","XeF₆","Xe₂F₂"],
+    tip:"Xe excess + 1 F₂ at 673K → XeF₂ (linear shape). Higher F₂ ratio → XeF₄ → XeF₆."
+  },
+  {
+    id:602, type:"blank", category:"Noble Gases", difficulty:"hard",
+    question:"Fill the RIGHT side — complete hydrolysis of XeF₄:",
+    blankSide:"right",
+    equationWithBlank:"6XeF₄ + 12H₂O → [___?___]",
+    fullEquation:"6XeF₄ + 12H₂O → 4Xe + 2XeO₃ + 24HF + 3O₂",
+    correct:"4Xe + 2XeO₃ + 24HF + 3O₂",
+    options:["6XeO₃ + 24HF","4Xe + 2XeO₃ + 24HF + 3O₂","Xe + XeO₃ + 6HF + O₂","6Xe + 24HF + 6O₂"],
+    tip:"6 Xe(+4) splits: 4 Xe(0) + 2 Xe(+6). 24F→24HF. 12H₂O provides O for XeO₃; leftover O→3O₂."
+  },
+  {
+    id:603, type:"blank", category:"Noble Gases", difficulty:"hard",
+    question:"Fill the RIGHT side — partial hydrolysis of XeF₆ (1 H₂O):",
+    blankSide:"right",
+    equationWithBlank:"XeF₆ + H₂O → [___?___]",
+    fullEquation:"XeF₆ + H₂O → XeOF₄ + 2HF",
+    correct:"XeOF₄ + 2HF",
+    options:["XeO₃ + 6HF","XeOF₄ + 2HF","XeO₂F₂ + 4HF","XeO + 6HF"],
+    tip:"1 H₂O: 1 O inserted, 2 F removed as HF → XeOF₄ (square pyramidal). More water → more O, less F."
+  },
+  {
+    id:604, type:"blank", category:"Noble Gases", difficulty:"medium",
+    question:"Fill the LEFT side — to form XeO₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → XeO₃ + 6HF",
+    fullEquation:"XeF₆ + 3H₂O → XeO₃ + 6HF",
+    correct:"XeF₆ + 3H₂O",
+    options:["XeF₄ + 3H₂O","XeF₆ + 3H₂O","XeF₂ + 3H₂O","XeF₆ + H₂O"],
+    tip:"Complete hydrolysis of XeF₆ needs 3 H₂O. 6F → 6HF. All 3 O stay → XeO₃ (pyramidal)."
+  },
+  {
+    id:605, type:"blank", category:"Noble Gases", difficulty:"medium",
+    question:"Fill the RIGHT side — preparation of XeF₆:",
+    blankSide:"right",
+    equationWithBlank:"Xe + 3F₂ (573K, 60-70 bar, 1:20 ratio) → [___?___]",
+    fullEquation:"Xe + 3F₂ → XeF₆",
+    correct:"XeF₆",
+    options:["XeF₄","XeF₂","XeF₆","Xe₂F₆"],
+    tip:"Xe + 3F₂ at 573K and very high pressure 60-70 bar gives XeF₆. Distorted octahedral shape."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: BORON
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:701, type:"blank", category:"Boron Family", difficulty:"medium",
+    question:"Fill the RIGHT side — preparation of diborane (LiAlH₄ method):",
+    blankSide:"right",
+    equationWithBlank:"4BF₃ + 3LiAlH₄ → [___?___]",
+    fullEquation:"4BF₃ + 3LiAlH₄ → 2B₂H₆ + 3LiF + 3AlF₃",
+    correct:"2B₂H₆ + 3LiF + 3AlF₃",
+    options:["B₂H₆ + LiF + AlF₃","2B₂H₆ + 3LiF + 3AlF₃","4BH₃ + LiAlF₄","2B₂H₆ + 3LiAlF₄"],
+    tip:"4BF₃ → 2B₂H₆ (need 12H, from 3 LiAlH₄×4H=12H). 12F → 3LiF + 3AlF₃ (each takes 3F). ✓"
+  },
+  {
+    id:702, type:"blank", category:"Boron Family", difficulty:"hard",
+    question:"Fill the LEFT side — borax dissolves in water:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2NaOH + 4H₃BO₃",
+    fullEquation:"Na₂B₄O₇ + 7H₂O → 2NaOH + 4H₃BO₃",
+    correct:"Na₂B₄O₇ + 7H₂O",
+    options:["Na₂B₄O₇ + 5H₂O","Na₂B₄O₇ + 7H₂O","Na₂BO₃ + H₂O","Na₂B₄O₇ + 4H₂O"],
+    tip:"7 H₂O needed. Solution is alkaline because NaOH (strong base) > H₃BO₃ (weak acid) effect."
+  },
+  {
+    id:703, type:"blank", category:"Boron Family", difficulty:"medium",
+    question:"Fill the RIGHT side — hydrolysis of diborane:",
+    blankSide:"right",
+    equationWithBlank:"B₂H₆ + 6H₂O → [___?___]",
+    fullEquation:"B₂H₆ + 6H₂O → 2B(OH)₃ + 6H₂",
+    correct:"2B(OH)₃ + 6H₂",
+    options:["2B(OH)₃ + 3H₂","2B(OH)₃ + 6H₂","H₃BO₃ + 6H₂","2HBO₂ + 6H₂"],
+    tip:"Each B gets 3 OH → B(OH)₃. 6H from B₂H₆ + 6H from water = 6H₂. 2B, so 2B(OH)₃ + 6H₂. ✓"
+  },
+  {
+    id:704, type:"blank", category:"Boron Family", difficulty:"medium",
+    question:"Fill the RIGHT side — boric acid acts as Lewis acid with water:",
+    blankSide:"right",
+    equationWithBlank:"B(OH)₃ + 2HOH → [___?___]",
+    fullEquation:"B(OH)₃ + 2HOH → [B(OH)₄]⁻ + H₃O⁺",
+    correct:"[B(OH)₄]⁻ + H₃O⁺",
+    options:["H₃BO₃ + OH⁻","[B(OH)₄]⁻ + H₃O⁺","B(OH)₂⁺ + 2OH⁻","BO₂⁻ + H₃O⁺"],
+    tip:"B accepts OH⁻ from water to fill its empty orbital → [B(OH)₄]⁻. This releases H₃O⁺ → acidic solution."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // BLANK: CARBON
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:801, type:"blank", category:"Carbon Family", difficulty:"easy",
+    question:"Fill the RIGHT side — water gas production:",
+    blankSide:"right",
+    equationWithBlank:"C + H₂O (473-1273K) → [___?___]",
+    fullEquation:"C + H₂O → CO + H₂",
+    correct:"CO + H₂",
+    options:["CO₂ + H₂","CO + H₂","CO + H₂O₂","CH₄ + O"],
+    tip:"Water gas = CO + H₂ (equal moles, also called synthesis gas). Producer gas uses air → CO + N₂."
+  },
+  {
+    id:802, type:"blank", category:"Carbon Family", difficulty:"medium",
+    question:"Fill the LEFT side — iron ore reduction by CO:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2Fe + 3CO₂",
+    fullEquation:"Fe₂O₃ + 3CO → 2Fe + 3CO₂",
+    correct:"Fe₂O₃ + 3CO",
+    options:["Fe₂O₃ + CO","Fe₂O₃ + 3CO","2FeO + 2CO","Fe₃O₄ + 4CO"],
+    tip:"3 CO for Fe₂O₃ (3 oxygen atoms). Each CO removes 1 O → CO₂. Fe₂O₃ is haematite ore."
+  },
+  {
+    id:803, type:"blank", category:"Carbon Family", difficulty:"hard",
+    question:"Fill the RIGHT side — SiO₂ attacked by NaOH:",
+    blankSide:"right",
+    equationWithBlank:"SiO₂ + 2NaOH → [___?___]",
+    fullEquation:"SiO₂ + 2NaOH → Na₂SiO₃ + H₂O",
+    correct:"Na₂SiO₃ + H₂O",
+    options:["Na₂SiO₄ + H₂O","Na₂SiO₃ + H₂O","NaSiO₂ + H₂O","Na₂Si + 2H₂O"],
+    tip:"SiO₂ (acidic oxide) + NaOH (base) → Na₂SiO₃ (sodium silicate/water glass) + H₂O."
+  },
+  {
+    id:804, type:"blank", category:"Carbon Family", difficulty:"medium",
+    question:"Fill the LEFT side — lab prep of CO₂:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → CaCl₂ + CO₂↑ + H₂O",
+    fullEquation:"CaCO₃ + 2HCl → CaCl₂ + CO₂↑ + H₂O",
+    correct:"CaCO₃ + 2HCl",
+    options:["CaCO₃ + HCl","CaCO₃ + 2HCl","CaO + 2HCl","CaCO₃ + H₂SO₄"],
+    tip:"Marble/limestone (CaCO₃) + dilute HCl. H₂SO₄ NOT used (CaSO₄ is insoluble, blocks reaction)."
+  },
+  {
+    id:805, type:"blank", category:"Carbon Family", difficulty:"hard",
+    question:"Fill the RIGHT side — SiO₂ attacked by HF:",
+    blankSide:"right",
+    equationWithBlank:"SiO₂ + 4HF → [___?___]",
+    fullEquation:"SiO₂ + 4HF → SiF₄ + 2H₂O",
+    correct:"SiF₄ + 2H₂O",
+    options:["SiF₃ + H₂O","SiF₄ + 2H₂O","H₂SiF₆ + H₂O","SiO + 2HF + H₂O"],
+    tip:"SiO₂ reacted by HF (unlike most acids). 4HF replace 2O with 4F → SiF₄ gas + 2H₂O."
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // EXTRA MCQ
+  // ─────────────────────────────────────────────────────────────
+  {
+    id:28, type:"mcq", category:"Boron Family", difficulty:"easy",
+    question:"Why is boric acid a Lewis acid (not Brønsted)?",
+    correct:"Accepts OH⁻ from water to complete its octet, releasing H⁺",
+    options:["Donates H⁺ directly to water","Accepts OH⁻ from water to complete its octet, releasing H⁺","Reacts with bases only","High ionisation enthalpy"],
+    equation:"B(OH)₃ + 2HOH → [B(OH)₄]⁻ + H₃O⁺",
+    tip:"B in B(OH)₃ has only 6 electrons. It GRABS OH⁻ (electron pair donor) — that is Lewis acid behaviour."
+  },
+  {
+    id:29, type:"mcq", category:"Boron Family", difficulty:"medium",
+    question:"Borax dissolves in water — why is the solution alkaline?",
+    correct:"NaOH (strong base) is produced along with weak H₃BO₃",
+    options:["H₃BO₃ is a strong acid","NaOH (strong base) is produced along with weak H₃BO₃","Borax itself is basic","B(OH)₄⁻ releases OH⁻"],
+    equation:"Na₂B₄O₇ + 7H₂O → 2NaOH + 4H₃BO₃",
+    tip:"Strong base (NaOH) + weak acid (H₃BO₃) → alkaline solution. Net effect: more OH⁻ than H⁺."
+  },
+  {
+    id:30, type:"mcq", category:"Carbon Family", difficulty:"easy",
+    question:"Why is CO poisonous?",
+    correct:"CO-Hb complex is 300× more stable than O₂-Hb",
+    options:["Acidic, corrodes lungs","CO-Hb complex is 300× more stable than O₂-Hb","Reacts with blood water","Extremely low boiling point"],
+    equation:"CO + Hb → carboxyhaemoglobin (300× stable vs O₂-Hb)",
+    tip:"CO binds Fe²⁺ in haemoglobin 300× more tightly. Blocks O₂ transport → cellular asphyxiation."
+  },
+  {
+    id:31, type:"mcq", category:"Carbon Family", difficulty:"medium",
+    question:"What is the difference between water gas and producer gas?",
+    correct:"Water gas = CO+H₂ (steam+coke); Producer gas = CO+N₂ (air+coke)",
+    options:["Both are the same","Water gas = CO+H₂ (steam+coke); Producer gas = CO+N₂ (air+coke)","Water gas = CO₂+H₂; Producer gas = CO+N₂","Water gas uses air; producer gas uses steam"],
+    equation:"C + H₂O → CO + H₂  |  2C + O₂ + 4N₂ → 2CO + 4N₂",
+    tip:"Water → H₂O → CO + H₂ (water gas). Air → N₂+O₂ → CO + N₂ (producer gas). Steam vs air!"
+  },
+
+  // ═════════════════════════════════════════════════════════════
+  // NEW FILL-THE-BLANK QUESTIONS  (ids 900–999)
+  // ═════════════════════════════════════════════════════════════
+
+  // ── INDUSTRIAL PROCESSES (extra) ────────────────────────────
+  {
+    id:900, type:"blank", category:"Industrial Processes", difficulty:"medium",
+    question:"Fill the LEFT side — Ostwald Step 2 (NO oxidation):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 4NO₂",
+    fullEquation:"2NO + O₂ → 2NO₂  (×2 gives 4NO₂)",
+    correct:"2NO + O₂",
+    options:["NO + O₂","2NO + O₂","2NO + 2O₂","4NO + O₂"],
+    tip:"Step 2 of Ostwald: NO is further oxidised by O₂ to NO₂. 2NO + O₂ → 2NO₂. Simple redox!"
+  },
+  {
+    id:901, type:"blank", category:"Industrial Processes", difficulty:"hard",
+    question:"Fill the RIGHT side — Haber's Process (complete balanced form):",
+    blankSide:"right",
+    equationWithBlank:"N₂ + 3H₂ ⇌ [___?___]  (200 atm, 700K, Fe₂O₃)",
+    fullEquation:"N₂ + 3H₂ ⇌ 2NH₃  ΔH = −92 kJ/mol",
+    correct:"2NH₃  (exothermic, −92 kJ/mol)",
+    options:["NH₃  (endothermic)","2NH₃  (exothermic, −92 kJ/mol)","2NH₃  (endothermic, +92 kJ/mol)","N₂H₄  (exothermic)"],
+    tip:"Haber's is exothermic (−92 kJ/mol). Le Chatelier: high P and low T favour product, but 700K is a compromise for rate."
+  },
+  {
+    id:902, type:"blank", category:"Industrial Processes", difficulty:"easy",
+    question:"Fill the LEFT side — final Contact Process step (diluting Oleum):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2H₂SO₄",
+    fullEquation:"H₂S₂O₇ + H₂O → 2H₂SO₄",
+    correct:"H₂S₂O₇ + H₂O",
+    options:["SO₃ + H₂O","H₂S₂O₇ + H₂O","2SO₃ + H₂O","H₂SO₄ + SO₃"],
+    tip:"Oleum (H₂S₂O₇) is carefully diluted with water → 2 H₂SO₄. Never add SO₃ directly to water!"
+  },
+
+  // ── NITROGEN COMPOUNDS (extra) ───────────────────────────────
+  {
+    id:903, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — thermal decomposition of Ba(N₃)₂:",
+    blankSide:"right",
+    equationWithBlank:"Ba(N₃)₂ → [___?___]",
+    fullEquation:"Ba(N₃)₂ → Ba + 3N₂",
+    correct:"Ba + 3N₂",
+    options:["BaN₂ + N₂","Ba + 3N₂","BaO + 3N₂","Ba + N₂ + NO"],
+    tip:"Barium azide decomposes to give pure Ba metal + N₂ gas. Each N₃⁻ ion releases 1.5 N₂."
+  },
+  {
+    id:904, type:"blank", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — Ostwald Step 3 (formation of HNO₃):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2HNO₃ + NO",
+    fullEquation:"3NO₂ + H₂O → 2HNO₃ + NO",
+    correct:"3NO₂ + H₂O",
+    options:["2NO₂ + H₂O","3NO₂ + H₂O","NO₂ + H₂O","3NO₂ + 2H₂O"],
+    tip:"3 NO₂ + 1 H₂O → 2 HNO₃ + 1 NO. N balances: 3 = 2+1. O balances: 6+1 = 6+1. ✓"
+  },
+  {
+    id:905, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — conc. HNO₃ with Zn:",
+    blankSide:"right",
+    equationWithBlank:"Zn + 4HNO₃(conc) → [___?___]",
+    fullEquation:"Zn + 4HNO₃(conc) → Zn(NO₃)₂ + 2NO₂↑ + 2H₂O",
+    correct:"Zn(NO₃)₂ + 2NO₂↑ + 2H₂O",
+    options:["ZnO + 2NO₂ + H₂O","Zn(NO₃)₂ + 2NO₂↑ + 2H₂O","Zn(NO₃)₂ + N₂O + H₂O","ZnSO₄ + 2NO₂"],
+    tip:"Conc. HNO₃ always gives NO₂ (brown). Same pattern as Cu+conc. 4 HNO₃: 2 make the salt, 2 → NO₂."
+  },
+  {
+    id:906, type:"blank", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — S reacts with conc. HNO₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → H₂SO₄ + 6NO₂ + 2H₂O",
+    fullEquation:"S + 6HNO₃(conc) → H₂SO₄ + 6NO₂ + 2H₂O",
+    correct:"S + 6HNO₃(conc)",
+    options:["S + 4HNO₃","S + 6HNO₃(conc)","S₈ + 6HNO₃","S + 3HNO₃"],
+    tip:"Non-metals like S, C, P are oxidised to their highest oxide acids by conc. HNO₃. S → H₂SO₄ (+6)."
+  },
+  {
+    id:907, type:"blank", category:"Nitrogen Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — P₄ with conc. HNO₃:",
+    blankSide:"right",
+    equationWithBlank:"P₄ + 20HNO₃(conc) → [___?___]",
+    fullEquation:"P₄ + 20HNO₃(conc) → 4H₃PO₄ + 20NO₂ + 4H₂O",
+    correct:"4H₃PO₄ + 20NO₂ + 4H₂O",
+    options:["H₃PO₄ + 4NO₂ + H₂O","4H₃PO₄ + 20NO₂ + 4H₂O","P₂O₅ + 20NO₂ + H₂O","4HPO₃ + 20NO₂"],
+    tip:"P₄ → 4 H₃PO₄. Each P needs 5 HNO₃ (5×4=20). Each HNO₃ → NO₂. 20 HNO₃ → 20 NO₂."
+  },
+  {
+    id:908, type:"blank", category:"Nitrogen Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — I₂ oxidised by conc. HNO₃:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2HIO₃ + 10NO₂ + 4H₂O",
+    fullEquation:"I₂ + 10HNO₃(conc) → 2HIO₃ + 10NO₂ + 4H₂O",
+    correct:"I₂ + 10HNO₃(conc)",
+    options:["I₂ + 6HNO₃","I₂ + 10HNO₃(conc)","2I + 10HNO₃","I₂ + 5HNO₃"],
+    tip:"I₂(0) → HIO₃(+5): each I needs 5 HNO₃ to oxidise it. 2I × 5 = 10 HNO₃ → 10 NO₂."
+  },
+
+  // ── PHOSPHORUS (extra) ───────────────────────────────────────
+  {
+    id:909, type:"blank", category:"Phosphorus", difficulty:"medium",
+    question:"Fill the RIGHT side — hydrolysis of PCl₅:",
+    blankSide:"right",
+    equationWithBlank:"PCl₅ + 4H₂O → [___?___]",
+    fullEquation:"PCl₅ + 4H₂O → H₃PO₄ + 5HCl",
+    correct:"H₃PO₄ + 5HCl",
+    options:["H₃PO₃ + 5HCl","H₃PO₄ + 5HCl","POCl₃ + 2HCl","H₃PO₄ + 3HCl"],
+    tip:"PCl₅ complete hydrolysis → H₃PO₄ (phosphoric acid) + 5HCl. Compare with PCl₃ → H₃PO₃ + 3HCl."
+  },
+  {
+    id:910, type:"blank", category:"Phosphorus", difficulty:"hard",
+    question:"Fill the LEFT side — partial hydrolysis of PCl₅:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → POCl₃ + 2HCl",
+    fullEquation:"PCl₅ + H₂O → POCl₃ + 2HCl",
+    correct:"PCl₅ + H₂O",
+    options:["PCl₃ + H₂O","PCl₅ + 2H₂O","PCl₅ + H₂O","PCl₅ + 3H₂O"],
+    tip:"Partial hydrolysis (1 H₂O): PCl₅ → POCl₃ (phosphoryl chloride) + 2HCl. 2 Cl replaced by O."
+  },
+  {
+    id:911, type:"blank", category:"Phosphorus", difficulty:"medium",
+    question:"Fill the RIGHT side — reaction of P₄ with excess NaOH:",
+    blankSide:"right",
+    equationWithBlank:"P₄ + 3NaOH + 3H₂O → [___?___]",
+    fullEquation:"P₄ + 3NaOH + 3H₂O → PH₃ + 3NaH₂PO₂",
+    correct:"PH₃ + 3NaH₂PO₂",
+    options:["PH₃ + Na₃PO₄","PH₃ + 3NaH₂PO₂","3PH₃ + NaH₂PO₂","PH₃ + 3NaOH·H₃PO₂"],
+    tip:"White P₄ disproportionates: 1 P(-3) in PH₃ + 3 P(+1) in NaH₂PO₂ (sodium hypophosphite)."
+  },
+  {
+    id:912, type:"blank", category:"Phosphorus", difficulty:"hard",
+    question:"Fill the LEFT side — formation of P₂O₅ (phosphorus pentoxide):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → P₄O₁₀",
+    fullEquation:"P₄ + 5O₂ → P₄O₁₀",
+    correct:"P₄ + 5O₂",
+    options:["2P + 5O₂","P₄ + 5O₂","P₄ + 4O₂","P₂ + 5O₂"],
+    tip:"P₄ + 5 O₂ → P₄O₁₀ (also written P₂O₅). 4 P atoms × 2.5 O each = 10 O atoms = 5 O₂."
+  },
+
+  // ── SULPHUR COMPOUNDS (extra) ────────────────────────────────
+  {
+    id:913, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — SO₂ dissolved in water:",
+    blankSide:"right",
+    equationWithBlank:"SO₂ + H₂O → [___?___]",
+    fullEquation:"SO₂ + H₂O → H₂SO₃",
+    correct:"H₂SO₃",
+    options:["H₂SO₄","H₂SO₃","H₂S + O₂","H₂S₂O₇"],
+    tip:"SO₂ + H₂O → H₂SO₃ (sulphurous acid, weak). Compare: SO₃ + H₂O → H₂SO₄ (sulphuric acid, strong)."
+  },
+  {
+    id:914, type:"blank", category:"Sulphur Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — preparation of SO₂ in lab:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → CaSO₄ + SO₂↑ + 2H₂O",
+    fullEquation:"CaSO₃ + H₂SO₄(dil) → CaSO₄ + SO₂↑ + 2H₂O",
+    correct:"CaSO₃ + H₂SO₄(dil)",
+    options:["CaSO₄ + HCl","CaSO₃ + H₂SO₄(dil)","CaSO₃ + 2HCl","CaS + H₂SO₄"],
+    tip:"Calcium sulphite + dilute H₂SO₄ → CaSO₄ (insoluble) + SO₂ gas. Acid displaces weaker acid."
+  },
+  {
+    id:915, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — Deacon's Process for Cl₂:",
+    blankSide:"right",
+    equationWithBlank:"4HCl + O₂ (CuCl₂ cat., 723K) → [___?___]",
+    fullEquation:"4HCl + O₂ → 2Cl₂ + 2H₂O",
+    correct:"2Cl₂ + 2H₂O",
+    options:["Cl₂ + H₂O","2Cl₂ + 2H₂O","2HCl + H₂O₂","2ClO + 2H₂"],
+    tip:"Deacon's Process: oxidises HCl with O₂ using CuCl₂ catalyst. 4 HCl + O₂ → 2 Cl₂ + 2 H₂O."
+  },
+  {
+    id:916, type:"blank", category:"Sulphur Compounds", difficulty:"hard",
+    question:"Fill the LEFT side — thiosulphate dissolves AgBr (photography):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → [Ag(S₂O₃)₂]³⁻ + Br⁻",
+    fullEquation:"AgBr + 2Na₂S₂O₃ → Na₃[Ag(S₂O₃)₂] + NaBr",
+    correct:"AgBr + 2Na₂S₂O₃",
+    options:["AgBr + Na₂S₂O₃","AgBr + 2Na₂S₂O₃","Ag₂S + Na₂S₂O₃","AgCl + 2Na₂S₂O₃"],
+    tip:"Hypo (Na₂S₂O₃) fixes photographs by dissolving unexposed AgBr as a soluble complex."
+  },
+  {
+    id:917, type:"blank", category:"Sulphur Compounds", difficulty:"medium",
+    question:"Fill the RIGHT side — action of conc. H₂SO₄ on NaCl:",
+    blankSide:"right",
+    equationWithBlank:"NaCl + H₂SO₄(conc, 420K) → [___?___]",
+    fullEquation:"NaCl + H₂SO₄(conc) → NaHSO₄ + HCl↑",
+    correct:"NaHSO₄ + HCl↑",
+    options:["Na₂SO₄ + HCl↑","NaHSO₄ + HCl↑","NaCl + SO₃ + H₂O","NaHSO₃ + HCl"],
+    tip:"At 420K: NaCl + H₂SO₄ → NaHSO₄ + HCl. At 823K: NaHSO₄ + NaCl → Na₂SO₄ + HCl."
+  },
+
+  // ── HALOGENS (extra) ─────────────────────────────────────────
+  {
+    id:918, type:"blank", category:"Halogens", difficulty:"medium",
+    question:"Fill the RIGHT side — F₂ displaces Cl⁻ from solution:",
+    blankSide:"right",
+    equationWithBlank:"F₂ + 2NaCl → [___?___]",
+    fullEquation:"F₂ + 2NaCl → 2NaF + Cl₂",
+    correct:"2NaF + Cl₂",
+    options:["NaCl + NaF + F⁻","2NaF + Cl₂","NaClF + NaF","2NaF + 2Cl"],
+    tip:"F₂ is the strongest oxidising halogen. It displaces ALL other halide ions. F₂ > Cl₂ > Br₂ > I₂."
+  },
+  {
+    id:919, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the LEFT side — Br₂ displacing I⁻ ions:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2NaBr + I₂",
+    fullEquation:"Br₂ + 2NaI → 2NaBr + I₂",
+    correct:"Br₂ + 2NaI",
+    options:["Cl₂ + 2NaI","Br₂ + 2NaI","Br₂ + NaI","I₂ + 2NaBr"],
+    tip:"Br₂ can oxidise I⁻ to I₂ (Br₂ is stronger oxidant than I₂). Cl₂ displaces both Br⁻ and I⁻."
+  },
+  {
+    id:920, type:"blank", category:"Halogens", difficulty:"medium",
+    question:"Fill the RIGHT side — HF preparation (fluorspar + H₂SO₄):",
+    blankSide:"right",
+    equationWithBlank:"CaF₂ + H₂SO₄(conc) → [___?___]",
+    fullEquation:"CaF₂ + H₂SO₄(conc) → CaSO₄ + 2HF↑",
+    correct:"CaSO₄ + 2HF↑",
+    options:["CaF₂SO₄ + H₂","CaSO₄ + 2HF↑","Ca(HF)₂ + SO₃","CaSO₃ + 2HF"],
+    tip:"Fluorspar (CaF₂) + conc. H₂SO₄ → CaSO₄ + HF. HF corrodes glass: SiO₂ + 4HF → SiF₄ + 2H₂O."
+  },
+  {
+    id:921, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the LEFT side — HI preparation (HI is reducing, so no H₂SO₄):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 3H₂SO₄(dil) + 2HI",
+    fullEquation:"3H₃PO₄ reacts with KI... use: PI₃ + 3H₂O → H₃PO₃ + 3HI",
+    correct:"PI₃ + 3H₂O",
+    options:["NaI + H₂SO₄","PI₃ + 3H₂O","KI + H₃PO₄","2HI → H₂ + I₂"],
+    tip:"HI cannot be made with H₂SO₄ (HI is oxidised to I₂). Phosphorus iodide + water is used instead."
+  },
+  {
+    id:922, type:"blank", category:"Halogens", difficulty:"medium",
+    question:"Fill the RIGHT side — ClF₃ preparation (interhalogens):",
+    blankSide:"right",
+    equationWithBlank:"Cl₂ + 3F₂(excess) → [___?___]",
+    fullEquation:"Cl₂ + 3F₂(excess) → 2ClF₃",
+    correct:"2ClF₃",
+    options:["ClF₃","2ClF₃","2ClF₅","Cl₂F₆"],
+    tip:"Cl₂ + 3F₂ (F₂ excess) → 2ClF₃. More F₂ gives higher interhalogens: ClF₃ → ClF₅ with even more F₂."
+  },
+  {
+    id:923, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the LEFT side — preparation of IF₅:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → 2IF₅",
+    fullEquation:"I₂ + 5F₂ → 2IF₅",
+    correct:"I₂ + 5F₂",
+    options:["I₂ + 3F₂","I₂ + 5F₂","2IF₃ + F₂","I₂ + 7F₂"],
+    tip:"I₂ + 5 F₂ → 2 IF₅ (iodine pentafluoride, square pyramidal). I₂ + 7F₂ → 2IF₇ (pentagonal bipyramidal)."
+  },
+
+  // ── NOBLE GASES (extra) ──────────────────────────────────────
+  {
+    id:924, type:"blank", category:"Noble Gases", difficulty:"hard",
+    question:"Fill the RIGHT side — XeF₂ hydrolysis:",
+    blankSide:"right",
+    equationWithBlank:"2XeF₂ + 2H₂O → [___?___]",
+    fullEquation:"2XeF₂ + 2H₂O → 2Xe + 4HF + O₂",
+    correct:"2Xe + 4HF + O₂",
+    options:["2XeO + 4HF","2Xe + 4HF + O₂","Xe + 2HF + H₂O₂","2XeO₂ + 4HF"],
+    tip:"XeF₂ hydrolysis: Xe(+2) → Xe(0). 2 F atoms per XeF₂ → 2HF each = 4HF. Water O₂ is released."
+  },
+  {
+    id:925, type:"blank", category:"Noble Gases", difficulty:"medium",
+    question:"Fill the LEFT side — XeO₃ reacts with OH⁻ to form xenate:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → HXeO₄⁻",
+    fullEquation:"XeO₃ + OH⁻ → HXeO₄⁻",
+    correct:"XeO₃ + OH⁻",
+    options:["XeO₂ + OH⁻","XeO₃ + OH⁻","XeO₃ + H₂O","XeF₂ + OH⁻"],
+    tip:"XeO₃ (pyramidal, like H₃PO₃) reacts with base → HXeO₄⁻ (hydrogen xenate ion)."
+  },
+  {
+    id:926, type:"blank", category:"Noble Gases", difficulty:"hard",
+    question:"Fill the RIGHT side — XeOF₂ partial hydrolysis:",
+    blankSide:"right",
+    equationWithBlank:"XeF₆ + 2H₂O → [___?___]",
+    fullEquation:"XeF₆ + 2H₂O → XeO₂F₂ + 4HF",
+    correct:"XeO₂F₂ + 4HF",
+    options:["XeOF₄ + 2HF","XeO₂F₂ + 4HF","XeO₃ + 4HF","XeOF₂ + 4HF"],
+    tip:"2 H₂O with XeF₆: 2O enter, 4F leave as HF → XeO₂F₂. Pattern: each H₂O adds 1O, removes 2F."
+  },
+
+  // ── BORON FAMILY (extra) ─────────────────────────────────────
+  {
+    id:927, type:"blank", category:"Boron Family", difficulty:"medium",
+    question:"Fill the RIGHT side — preparation of diborane (alternative route via NaBH₄):",
+    blankSide:"right",
+    equationWithBlank:"2NaBH₄ + I₂ → [___?___]",
+    fullEquation:"2NaBH₄ + I₂ → B₂H₆ + 2NaI + H₂",
+    correct:"B₂H₆ + 2NaI + H₂",
+    options:["2BH₃ + 2NaI","B₂H₆ + 2NaI + H₂","B₂H₄ + 2NaI + 2HI","B₂H₆ + NaI₂"],
+    tip:"NaBH₄ (sodium borohydride) reacts with I₂ → B₂H₆ + NaI + H₂. The I₂ oxidises the hydride."
+  },
+  {
+    id:928, type:"blank", category:"Boron Family", difficulty:"hard",
+    question:"Fill the LEFT side — boric acid dehydration chain (first step):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → HBO₂ + H₂O",
+    fullEquation:"H₃BO₃ → HBO₂ + H₂O  (at 373K)",
+    correct:"H₃BO₃ (at 373K)",
+    options:["H₃BO₃ (at 373K)","B(OH)₃ + HCl","Na₂B₄O₇ + H₂O","B₂O₃ + 3H₂O"],
+    tip:"Boric acid dehydration: H₃BO₃ →(373K) HBO₂ →(>1000K) B₂O₃. Losing H₂O each step."
+  },
+  {
+    id:929, type:"blank", category:"Boron Family", difficulty:"medium",
+    question:"Fill the RIGHT side — borax bead test (cobalt, blue bead):",
+    blankSide:"right",
+    equationWithBlank:"Na₂B₄O₇ + CoO → [___?___]",
+    fullEquation:"Na₂B₄O₇ + CoO → Co(BO₂)₂ + 2NaBO₂",
+    correct:"Co(BO₂)₂ + 2NaBO₂",
+    options:["CoNaBO₄ + NaBO₂","Co(BO₂)₂ + 2NaBO₂","NaCoBO₄ + NaBO₂","Co₂O₃ + NaBO₂"],
+    tip:"Borax bead test: metal oxide + borax → coloured metal metaborate. CoO → deep blue bead."
+  },
+  {
+    id:930, type:"blank", category:"Boron Family", difficulty:"hard",
+    question:"Fill the LEFT side — Al reacts with NaOH (amphoteric behaviour):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → Na[Al(OH)₄] + 3/2 H₂↑",
+    fullEquation:"2Al + 2NaOH + 2H₂O → 2Na[Al(OH)₄] + 3H₂↑",
+    correct:"2Al + 2NaOH + 2H₂O",
+    options:["Al + NaOH + H₂O","2Al + 2NaOH + 2H₂O","Al₂O₃ + 2NaOH","Al + NaOH + H₂"],
+    tip:"Al is amphoteric — reacts with both acid and base. With NaOH: forms tetrahydroxoaluminate Na[Al(OH)₄] + H₂."
+  },
+
+  // ── CARBON FAMILY (extra) ────────────────────────────────────
+  {
+    id:931, type:"blank", category:"Carbon Family", difficulty:"medium",
+    question:"Fill the RIGHT side — producer gas (air + coke):",
+    blankSide:"right",
+    equationWithBlank:"2C + O₂ + 4N₂ → [___?___]",
+    fullEquation:"2C + O₂ + 4N₂ → 2CO + 4N₂",
+    correct:"2CO + 4N₂",
+    options:["CO₂ + 4N₂","2CO + 4N₂","2CO₂ + 4N₂","CO + N₂"],
+    tip:"Producer gas = CO + N₂ (fuel + diluted by N₂ from air). Calorific value is lower than water gas."
+  },
+  {
+    id:932, type:"blank", category:"Carbon Family", difficulty:"hard",
+    question:"Fill the LEFT side — SiCl₄ hydrolysis:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → Si(OH)₄ + 4HCl",
+    fullEquation:"SiCl₄ + 4H₂O → Si(OH)₄ + 4HCl",
+    correct:"SiCl₄ + 4H₂O",
+    options:["SiCl₄ + 2H₂O","SiCl₄ + 4H₂O","SiCl₂ + 4H₂O","Si + 4HCl"],
+    tip:"SiCl₄ readily hydrolyses (Si has vacant 3d orbitals to accept O lone pair). CCl₄ does NOT hydrolyse."
+  },
+  {
+    id:933, type:"blank", category:"Carbon Family", difficulty:"medium",
+    question:"Fill the RIGHT side — formation of silicon carbide (carborundum):",
+    blankSide:"right",
+    equationWithBlank:"SiO₂ + 3C (electric furnace, 2000K) → [___?___]",
+    fullEquation:"SiO₂ + 3C → SiC + 2CO",
+    correct:"SiC + 2CO",
+    options:["Si + 2CO","SiC + 2CO","SiO + 2CO","Si + CO₂"],
+    tip:"SiO₂ + 3C → SiC (carborundum, very hard) + 2CO. One C reduces SiO₂, two C bond to Si."
+  },
+  {
+    id:934, type:"blank", category:"Carbon Family", difficulty:"hard",
+    question:"Fill the LEFT side — CaCO₃ thermal decomposition:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → CaO + CO₂",
+    fullEquation:"CaCO₃ → CaO + CO₂  (above 1073K)",
+    correct:"CaCO₃ (above 1073K)",
+    options:["Ca + CO₂","CaCO₃ (above 1073K)","Ca(OH)₂ + CO","CaCO₃ + H₂O"],
+    tip:"Calcination of limestone (CaCO₃) → quicklime (CaO) + CO₂. Industrial process for cement."
+  },
+  {
+    id:935, type:"blank", category:"Carbon Family", difficulty:"medium",
+    question:"Fill the RIGHT side — CaO (quicklime) reacts with water:",
+    blankSide:"right",
+    equationWithBlank:"CaO + H₂O → [___?___]",
+    fullEquation:"CaO + H₂O → Ca(OH)₂",
+    correct:"Ca(OH)₂",
+    options:["CaCO₃","Ca(OH)₂","CaH₂ + O₂","Ca + H₂O₂"],
+    tip:"CaO (quicklime) + H₂O → Ca(OH)₂ (slaked lime). Exothermic reaction. Slaked lime is used in mortar."
+  },
+  {
+    id:936, type:"blank", category:"Carbon Family", difficulty:"hard",
+    question:"Fill the LEFT side — thermite reaction:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → Al₂O₃ + 2Fe",
+    fullEquation:"Fe₂O₃ + 2Al → Al₂O₃ + 2Fe",
+    correct:"Fe₂O₃ + 2Al",
+    options:["FeO + 2Al","Fe₂O₃ + 2Al","2Fe₂O₃ + Al","Fe₃O₄ + 3Al"],
+    tip:"Thermite: Al reduces Fe₂O₃. ΔH = −852 kJ/mol. Produces molten iron (used in railway welding)."
+  },
+  {
+    id:937, type:"blank", category:"Carbon Family", difficulty:"medium",
+    question:"Fill the RIGHT side — CO₂ reacts with excess NaOH:",
+    blankSide:"right",
+    equationWithBlank:"CO₂ + 2NaOH(excess) → [___?___]",
+    fullEquation:"CO₂ + 2NaOH → Na₂CO₃ + H₂O",
+    correct:"Na₂CO₃ + H₂O",
+    options:["NaHCO₃","Na₂CO₃ + H₂O","2NaHCO₃","NaOH·CO₂"],
+    tip:"Excess NaOH + CO₂ → Na₂CO₃ (sodium carbonate). Limited NaOH → NaHCO₃ (sodium bicarbonate)."
+  },
+  {
+    id:938, type:"blank", category:"Carbon Family", difficulty:"hard",
+    question:"Fill the LEFT side — CO₂ with limited NaOH gives bicarbonate:",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → NaHCO₃",
+    fullEquation:"CO₂ + NaOH → NaHCO₃",
+    correct:"CO₂ + NaOH",
+    options:["CO₂ + 2NaOH","CO₂ + NaOH","CO + NaOH","CO₂ + Ca(OH)₂"],
+    tip:"Limited NaOH (1 mole): CO₂ + NaOH → NaHCO₃. Excess NaOH (2 moles): CO₂ + 2NaOH → Na₂CO₃."
+  },
+
+  // ── CROSS-CATEGORY: KEY REACTIONS ────────────────────────────
+  {
+    id:939, type:"blank", category:"Nitrogen Compounds", difficulty:"easy",
+    question:"Fill the RIGHT side — NH₃ reacts with excess Cl₂:",
+    blankSide:"right",
+    equationWithBlank:"8NH₃ + 3Cl₂(excess) → [___?___]",
+    fullEquation:"8NH₃ + 3Cl₂ → 6NH₄Cl + N₂",
+    correct:"6NH₄Cl + N₂",
+    options:["NH₂Cl + NH₄Cl","6NH₄Cl + N₂","NCl₃ + 6HCl","3N₂ + 9HCl"],
+    tip:"Excess Cl₂ + NH₃ → 6NH₄Cl + N₂. Limited Cl₂ gives NH₂Cl. Excess gives N₂ + ammonium salt."
+  },
+  {
+    id:940, type:"blank", category:"Halogens", difficulty:"hard",
+    question:"Fill the LEFT side — reaction of XeF₄ with SbF₅ (Lewis acid):",
+    blankSide:"left",
+    equationWithBlank:"[___?___] → [XeF₃]⁺[SbF₆]⁻",
+    fullEquation:"XeF₄ + SbF₅ → [XeF₃]⁺[SbF₆]⁻",
+    correct:"XeF₄ + SbF₅",
+    options:["XeF₂ + SbF₅","XeF₄ + SbF₅","XeF₆ + SbF₃","Xe + SbF₅"],
+    tip:"XeF₄ acts as F⁻ donor to SbF₅ (Lewis acid). Shows Xe can form ionic compounds with Lewis acids."
+  },
+  {
+    id:941, type:"blank", category:"Industrial Processes", difficulty:"medium",
+    question:"Fill the RIGHT side — Solvay Process Step 1 (CO₂ + NH₃ + brine):",
+    blankSide:"right",
+    equationWithBlank:"NaCl + NH₃ + CO₂ + H₂O → [___?___]",
+    fullEquation:"NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ + NH₄Cl",
+    correct:"NaHCO₃ + NH₄Cl",
+    options:["Na₂CO₃ + NH₄Cl","NaHCO₃ + NH₄Cl","NaCl + NH₄HCO₃","Na₂CO₃ + H₂O"],
+    tip:"Solvay Process: NaHCO₃ precipitates (less soluble) + NH₄Cl stays in solution. NH₃ is recycled."
+  },
+  {
+    id:942, type:"blank", category:"Boron Family", difficulty:"medium",
+    question:"Fill the RIGHT side — thermite welding (Al reduces Fe₂O₃):",
+    blankSide:"right",
+    equationWithBlank:"Fe₂O₃ + 2Al → [___?___]",
+    fullEquation:"Fe₂O₃ + 2Al → Al₂O₃ + 2Fe",
+    correct:"Al₂O₃ + 2Fe",
+    options:["Al₂O₃ + Fe₂","AlFeO₃ + Fe","Al₂O₃ + 2Fe","FeAl₂O₄ + Fe"],
+    tip:"Al is a stronger reducing agent than Fe. Thermite reaction releases enormous heat → molten iron."
+  },
+]
